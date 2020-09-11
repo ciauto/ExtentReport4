@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="1" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="722" started-at="2020-02-28T13:43:20 EST" finished-at="2020-02-28T13:43:20 EST">
+  <suite name="Default suite" duration-ms="1007" started-at="2020-06-20T15:14:13 EDT" finished-at="2020-06-20T15:14:14 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="722" started-at="2020-02-28T13:43:20 EST" finished-at="2020-02-28T13:43:20 EST">
+    <test name="Default test" duration-ms="1007" started-at="2020-06-20T15:14:13 EDT" finished-at="2020-06-20T15:14:14 EDT">
       <class name="testcases.testcase1">
-        <test-method status="PASS" signature="setReport()[pri:0, instance:testcases.testcase1@1dfe2924]" name="setReport" is-config="true" duration-ms="169" started-at="2020-02-28T13:43:20 EST" finished-at="2020-02-28T13:43:20 EST">
+        <test-method status="PASS" signature="setReport()[pri:0, instance:testcases.testcase1@1dfe2924]" name="setReport" is-config="true" duration-ms="247" started-at="2020-06-20T15:14:13 EDT" finished-at="2020-06-20T15:14:13 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReport -->
-        <test-method status="SKIP" signature="isSkip()[pri:0, instance:testcases.testcase1@1dfe2924]" name="isSkip" duration-ms="13" started-at="2020-02-28T13:43:20 EST" finished-at="2020-02-28T13:43:20 EST">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:testcases.testcase1@1dfe2924]" name="isSkip" duration-ms="12" started-at="2020-06-20T15:14:13 EDT" finished-at="2020-06-20T15:14:13 EDT">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping the Test Case]]>
@@ -53,7 +53,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSkip -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.testcase1@1dfe2924]" name="tearDown" is-config="true" duration-ms="17" started-at="2020-02-28T13:43:20 EST" finished-at="2020-02-28T13:43:20 EST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.testcase1@1dfe2924]" name="tearDown" is-config="true" duration-ms="18" started-at="2020-06-20T15:14:13 EDT" finished-at="2020-06-20T15:14:13 EDT">
           <params>
             <param index="0">
               <value>
@@ -64,7 +64,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="verifyAddPayee()[pri:0, instance:testcases.testcase1@1dfe2924]" name="verifyAddPayee" duration-ms="8" started-at="2020-02-28T13:43:20 EST" finished-at="2020-02-28T13:43:20 EST">
+        <test-method status="FAIL" signature="verifyAddPayee()[pri:0, instance:testcases.testcase1@1dfe2924]" name="verifyAddPayee" duration-ms="8" started-at="2020-06-20T15:14:13 EDT" finished-at="2020-06-20T15:14:13 EDT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[did not expect to find [true] but found [false]]]>
@@ -110,7 +110,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddPayee -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.testcase1@1dfe2924]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-02-28T13:43:20 EST" finished-at="2020-02-28T13:43:20 EST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.testcase1@1dfe2924]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-20T15:14:13 EDT" finished-at="2020-06-20T15:14:13 EDT">
           <params>
             <param index="0">
               <value>
@@ -121,11 +121,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:testcases.testcase1@1dfe2924]" name="verifyLogin" duration-ms="2" started-at="2020-02-28T13:43:20 EST" finished-at="2020-02-28T13:43:20 EST">
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:testcases.testcase1@1dfe2924]" name="verifyLogin" duration-ms="2" started-at="2020-06-20T15:14:13 EDT" finished-at="2020-06-20T15:14:13 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.testcase1@1dfe2924]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-02-28T13:43:20 EST" finished-at="2020-02-28T13:43:20 EST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.testcase1@1dfe2924]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-06-20T15:14:13 EDT" finished-at="2020-06-20T15:14:13 EDT">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:testcases.testcase1@1dfe2924]" name="endReport" is-config="true" duration-ms="457" started-at="2020-02-28T13:43:20 EST" finished-at="2020-02-28T13:43:20 EST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcases.testcase1@1dfe2924]" name="endReport" is-config="true" duration-ms="658" started-at="2020-06-20T15:14:13 EDT" finished-at="2020-06-20T15:14:14 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->

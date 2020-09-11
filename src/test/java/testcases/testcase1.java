@@ -30,7 +30,7 @@ public class testcase1 {
 		htmlReporter.config().setEncoding("utf-8");
 		htmlReporter.config().setDocumentTitle("CI Automation Report");
 		htmlReporter.config().setReportName("ExtentReport 4");
-		htmlReporter.config().setTheme(Theme.STANDARD);
+		htmlReporter.config().setTheme(Theme.DARK);
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		
